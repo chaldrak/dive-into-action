@@ -1,5 +1,10 @@
 name: My First Github Action
 description: This actions greets persons
+inputs:
+  person:
+    description: 'Name of the person to greet'
+    required: true
+    default: 'Richard Stifler'
 runs:
   using: node20
   main: src/index.js
