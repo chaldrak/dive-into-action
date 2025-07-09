@@ -1,0 +1,5 @@
+name: My First Github Action
+description: This actions greets persons
+runs:
+  using: node20
+  main: src/index.js
